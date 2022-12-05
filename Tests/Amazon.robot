@@ -2,7 +2,7 @@
 Documentation       This is some basic info about the whole suite
 Library    SeleniumLibrary
 *** Variables ***
-${BROWSER}  firefox
+${BROWSER}  chrome
 
 *** Test Cases ***
 User must sign in to check out
