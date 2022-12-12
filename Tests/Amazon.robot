@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation       This is some basic info about the whole suite
+#Documentation       This is some basic info about the whole suite
 Library    SeleniumLibrary
 *** Variables ***
 ${BROWSER}  chrome
@@ -18,8 +18,8 @@ User must sign in to check out
     click button                id:add-to-cart-button
     wait until page contains    Ajouté au panier
     click element               name:proceedToRetailCheckout
-    page should contain element     id:continue
-    element text should be      id:continue         Continuer
-    sleep               5s
+#    page should contain element     id:continue
+#    element text should be      id:continue         Continuer
+#    sleep               5s
     close browser
 *** Keywords ***
